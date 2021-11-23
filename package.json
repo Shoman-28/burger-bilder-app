@@ -1,6 +1,6 @@
 {
   "name": "burger-bilder-api",
-  "version": "1.0.0",
+  "version": "1.0.0",echo "# burger-bilder-app" >> README.md
   "description": "This is an api for burger app",
   "main": "index.js",
   "scripts": {
