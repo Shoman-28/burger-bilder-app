@@ -8,18 +8,18 @@ app.get('/', (req, res) => {
 })
 
 
-// mongoose
-//   .connect(process.env.MONGODB_SERVER, {
-//     useNewUrlParser: true,
-//     useUnifiedTopology: true,
-//     useCreateIndex: true,
-//   })
-//   .then(() => {
-//     console.log("Connected to MongoDB");
-//   })
-//   .catch(() => {
-//     console.log("MongoDB Connection Failed!");
-//   });
+mongoose
+  .connect(process.env.MONGODB_SERVER, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true,
+  })
+  .then(() => {
+    console.log("Connected to MongoDB");
+  })
+  .catch(() => {
+    console.log("MongoDB Connection Failed!");
+  });
 
 
   const port = process.env.PORT || 3002
